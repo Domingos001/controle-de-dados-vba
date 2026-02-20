@@ -1,6 +1,6 @@
 Private Sub Workbook_Open()
     Dim senha As String
-    senha = "1234" ' <-- SENHA LOCAL
+    senha = "111111" ' <-- SENHA LOCAL
     
     ' Protege a planilha de Movimentações, permitindo macros E FILTROS
     Sheets("Movimentações").Protect Password:=senha, UserInterfaceOnly:=True, AllowFiltering:=True
